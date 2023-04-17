@@ -1,5 +1,11 @@
 #### 基于Arco 组件库和Vue3的中后台框架
 
+![template02](./resource/template2.png)
+
+![template01](./resource/template1.png)
+
+
+---
 
 #### 快速上手
 本项目的技术栈为 vue+ ES2015++ TypeScript + Arco Design和 echarts 等
@@ -73,10 +79,10 @@ npm run dev
 #### 页面布局
 目前提供两套页面模板可供使用，后续会通过插件注册的方式完成模板自由插拔。
 - 默认布局: 屏幕左侧目录，右侧顶部包含路径地址、用户信息和站内页签，右下角大部分区域进行各个页面的主要内容展示。
-![template02](./resource/template02.png)
+![template02](./resource/template2.png)
 
 - 常用布局: 页面顶部包含项目名、一级菜单和用户信息。主要区域左侧展示当前一级菜单下的子菜单，主要区域右侧展示当前页面的主要内容。
-![template01](./resource/template01.png)
+![template01](./resource/template1.png)
 
 
 
