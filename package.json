@@ -1,0 +1,49 @@
+{
+  "name": "arco-admin-starter",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:dev": "cross-env currentEnv=dev npm run build",
+    "build:qa": "cross-env currentEnv=qa npm run build",
+    "build:release": "cross-env currentEnv=release npm run build",
+    "build:prod": "cross-env currentEnv=prod npm run build",
+    "build:no-cache": "yarn clean:cache && npm run build",
+    "report": "cross-env REPORT=true npm run build",
+    "preview": "npm run build && vite preview",
+    "preview:dist": "vite preview",
+    "clean:cache": "rimraf node_modules/.cache/ && rimraf node_modules/.vite",
+    "clean:lib": "rimraf node_modules",
+    "reinstall": "rimraf yarn.lock && rimraf package.lock.json && rimraf node_modules && cnpm install"
+  },
+  "dependencies": {
+    "@vueuse/core": "^9.9.0",
+    "axios": "^1.2.1",
+    "dayjs": "^1.11.5",
+    "echarts": "^5.4.1",
+    "isomorphic-fetch": "^3.0.0",
+    "lodash": "^4.17.21",
+    "mitt": "^3.0.0",
+    "pinia": "^2.0.23",
+    "qs": "^6.11.0",
+    "vue": "^3.2.37",
+    "vue-echarts": "^6.5.1",
+    "vue-router": "^4.1.5"
+  },
+  "devDependencies": {
+    "@arco-design/web-vue": "^2.38.1",
+    "@types/node": "^18.11.17",
+    "@vitejs/plugin-vue": "^3.1.0",
+    "@vitejs/plugin-vue-jsx": "^2.1.1",
+    "cross-env": "^7.0.3",
+    "i": "^0.3.7",
+    "less": "^4.1.3",
+    "npm": "^9.2.0",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.6.4",
+    "vite": "^3.1.0",
+    "vue-tsc": "^0.40.4"
+  }
+}

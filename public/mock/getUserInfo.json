@@ -1,0 +1,104 @@
+{
+  "code": 200,
+  "msg": "Success",
+  "success": true,
+  "data": {
+    "userId": "xxxx",
+    "userName": "七月-alvin",
+    "status": {
+      "name": "NORMAL",
+      "code": "1",
+      "text": "正常"
+    },
+    "token": null,
+    "roles": [
+      {
+        "id": 2,
+        "roleName": "超级管理员",
+        "type": 0,
+        "status": {
+          "name": "NORMAL",
+          "code": "1",
+          "text": "正常"
+        },
+        "systemCode": "UdfKSU",
+        "systemName": "权限管理",
+        "menus": [
+          {
+            "id": 13,
+            "menuCode": "Bc03t5",
+            "systemCode": "i_RTYA",
+            "menuName": "站点首页",
+            "pid": 0,
+            "url": "/home/list",
+            "meta": null,
+            "sort": 1,
+            "status": {
+              "name": "NORMAL",
+              "code": "1",
+              "text": "正常"
+            },
+            "remark": null,
+            "level": 1,
+            "childMenu": []
+          },
+          {
+            "id": 9,
+            "menuCode": "6x42IZ",
+            "systemCode": "i_RTYA",
+            "menuName": "系统管理",
+            "pid": 0,
+            "url": "/system-management",
+            "meta": null,
+            "sort": 3,
+            "status": {
+              "name": "NORMAL",
+              "code": "1",
+              "text": "正常"
+            },
+            "remark": null,
+            "level": 1,
+            "childMenu": [
+              {
+                "id": 11,
+                "menuCode": "n4_Lk0",
+                "systemCode": "i_RTYA",
+                "menuName": "角色管理",
+                "pid": 9,
+                "url": "/system-management/role",
+                "meta": null,
+                "sort": 999,
+                "status": {
+                  "name": "NORMAL",
+                  "code": "1",
+                  "text": "正常"
+                },
+                "remark": null,
+                "level": 1,
+                "childMenu": []
+              },
+              {
+                "id": 10,
+                "menuCode": "51M9dA",
+                "systemCode": "i_RTYA",
+                "menuName": "c菜单管理",
+                "pid": 9,
+                "url": "/system-management/menu",
+                "meta": null,
+                "sort": 999,
+                "status": {
+                  "name": "NORMAL",
+                  "code": "1",
+                  "text": "正常"
+                },
+                "remark": null,
+                "level": 1,
+                "childMenu": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
